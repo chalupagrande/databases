@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- dependencies -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <!-- your scripts -->
+    <script src="env/config.js"></script>
+    <script src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>chatterbox</h1>
+      <!-- Your HTML goes here! -->
+
+      <form id = "messageForm">
+        Message: <br/>
+   
+        <input type= "text" name = "message" id = "mess"/><br/>
+        <input type = "submit" name ="submit"/>
+      </form>
+
+      <div class = 'butt' id = 'refresh'>Refresh</div>
+      <div class ='butt' id = 'room'>Add room</div>
+
+
+      <select id="roomlist">
+        <option value="All" >All</option>
+
+      </select>
+
+      <!-- FORM INPUT BOX --> 
+      <!--- FEED -->
+      <div class = 'feed'>
+        <!-- Chats go here --> 
+
+
+
+
+      </div><!-- /FEED --> 
+
+      <!-- /FEED -->
+
+      <!-- CHAT ROOM LIST --> 
+
+    </div>
+  </body>
+</html>
