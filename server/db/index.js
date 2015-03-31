@@ -13,6 +13,4 @@ var mysql = require('mysql');
 dbConnection.connect();
 
 //do something with dbconnection in other files
-
-
 module.exports = dbConnection;
