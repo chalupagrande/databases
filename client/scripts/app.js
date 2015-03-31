@@ -1,7 +1,7 @@
 
 var app = {};
 app.rooms = {};
-app.server = 'https://api.parse.com/1/classes/chatterbox';
+app.server = 'http://127.0.0.1:3000/';
 // $('.refresh').on('click', function(){
 // 	app.fetch();
 // });
