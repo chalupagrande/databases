@@ -7,7 +7,7 @@ module.exports = {
   messages: {
     get: function () {
 
-
+      
       // actual SQL QUERY
     }, // a function which produces all the messages
     post: function () {
@@ -19,7 +19,9 @@ module.exports = {
   users: {
     // Ditto as above.
     get: function () {},
-    post: function () {}
+    post: function () {
+       console.log("YOU've MADE IT JAMIE2")
+    }
   }
 };
 

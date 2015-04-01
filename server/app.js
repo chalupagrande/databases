@@ -16,7 +16,11 @@ app.set("port", 3000);
 
 // Logging and parsing
 app.use(morgan('dev'));
-app.use(parser.json());
+app.use(parser.text());
+
+// app.post('/classes/messages', function (req, res) {
+//   console.log('nooo', JSON.parse(req.body));
+// })
 
 // Set up our routes
 app.use("/classes", router);
